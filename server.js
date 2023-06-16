@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3002;
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'https://648c7877d8e35522a05b959a--jazzy-sprite-65397f.netlify.app',
+        origin: 'https://euphonious-dieffenbachia-fbb34c.netlify.app',
         methods: ['GET', 'POST']
     }
 });
