@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3002;
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://inquisitive-tarsier-c11533.netlify.app',
         methods: ['GET', 'POST']
     }
 });
